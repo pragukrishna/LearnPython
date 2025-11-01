@@ -1,0 +1,11 @@
+# this will insert a number N at position P in the list
+numbers = [10, 20, 30, 40, 50]
+
+P = int(input())
+N = int(input())
+
+if P < 0 or P > len(numbers):
+    print("Invalid")
+else:
+    numbers.insert(P, N)
+    print(numbers)
