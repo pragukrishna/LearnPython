@@ -8,5 +8,7 @@ for x in input_str:
     if x in vowel:
         y += 1
 
-
-print("total vowel count is:", y)
+if y == 0:
+    print("No vowels found in the string")
+else:
+    print("total vowel count is:", y)
